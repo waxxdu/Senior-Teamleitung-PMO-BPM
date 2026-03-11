@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsten Wittmann - Senior Teamleitung PMO & BPM</title>
+    <meta name="description" content="Carsten Wittmann – Senior PMO & BPM Experte mit 32+ Jahren Erfahrung. Aufbau von Project Management Offices, Projektportfolio-Management und Business Process Management.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root{--primary:#A64D4D;--primary-hover:#8B3E3E;--primary-light:rgba(166,77,77,0.1);--secondary:#2C3E50;--accent:#E8B86D;--bg-primary:#FAFBFC;--bg-secondary:#F1F5F9;--bg-card:#FFF;--bg-dark:#1a1f2e;--bg-hero:linear-gradient(135deg,#1a1f2e 0%,#2C3E50 100%);--text-primary:#1e293b;--text-secondary:#64748b;--text-inverse:#FFF;--font:'Inter',-apple-system,sans-serif;--max-width:1200px;--nav-height:64px;--radius:12px;--radius-lg:16px;--radius-full:9999px;--shadow-sm:0 1px 2px rgba(0,0,0,0.05);--shadow-md:0 4px 6px -1px rgba(0,0,0,0.1);--shadow-lg:0 10px 15px -3px rgba(0,0,0,0.1);--shadow-xl:0 20px 25px -5px rgba(0,0,0,0.1);--transition:200ms ease}
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:var(--font);font-size:1rem;line-height:1.6;color:var(--text-primary);background:var(--bg-primary);-webkit-font-smoothing:antialiased}img{max-width:100%;height:auto;display:block}a{color:inherit;text-decoration:none}ul,ol{list-style:none}.container{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem}
+        .nav{position:fixed;top:0;left:0;right:0;height:var(--nav-height);background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,0,0,0.06);z-index:1000;transition:var(--transition)}.nav.scrolled{box-shadow:var(--shadow-md)}.nav-inner{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem;height:100%;display:flex;align-items:center;justify-content:space-between}.nav-logo{font-weight:700;font-size:1.125rem;color:var(--secondary)}.nav-links{display:flex;align-items:center;gap:2rem}.nav-links a{font-size:0.875rem;font-weight:500;color:var(--text-secondary);transition:var(--transition);position:relative}.nav-links a:hover{color:var(--primary)}.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--primary);transition:var(--transition)}.nav-links a:hover::after{width:100%}.nav-contact{font-size:0.875rem;color:var(--text-secondary)}.nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:0.5rem}.nav-toggle span{width:24px;height:2px;background:var(--secondary);transition:var(--transition)}
+        .hero{min-height:100vh;background:var(--bg-hero);display:flex;align-items:center;position:relative;overflow:hidden;padding-top:var(--nav-height)}.hero-bg-image{position:absolute;top:0;right:0;width:55%;height:100%;background-image:url('https://waxxdu.de/wp-content/uploads/2026/01/carsten-wittmann-hero.png');background-size:cover;background-position:center top;opacity:0.5;mask-image:linear-gradient(to left,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);-webkit-mask-image:linear-gradient(to left,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%)}.hero-content{position:relative;z-index:1;max-width:650px;padding:4rem 1.5rem}.hero-badge{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(232,184,109,0.15);color:var(--accent);padding:0.5rem 1rem;border-radius:var(--radius-full);font-size:0.875rem;font-weight:500;margin-bottom:1.5rem}.hero-name{font-size:3.5rem;font-weight:700;color:var(--text-inverse);line-height:1.1;margin-bottom:1rem}.hero-title{font-size:1.5rem;color:var(--accent);font-weight:500;margin-bottom:1.5rem}.hero-tagline{font-size:1.125rem;color:rgba(255,255,255,0.8);line-height:1.7;margin-bottom:2rem}.hero-buttons{display:flex;gap:1rem;flex-wrap:wrap}
+        .btn{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;padding:0.75rem 1.5rem;font-size:1rem;font-weight:600;border-radius:var(--radius);cursor:pointer;transition:var(--transition);border:2px solid transparent}.btn-primary{background:var(--primary);color:var(--text-inverse);border-color:var(--primary)}.btn-primary:hover{background:var(--primary-hover);border-color:var(--primary-hover);transform:translateY(-2px);box-shadow:var(--shadow-lg)}.btn-outline{background:transparent;color:var(--text-inverse);border-color:rgba(255,255,255,0.3)}.btn-outline:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5)}
+        .profile{padding:5rem 0;background:var(--bg-primary)}.profile-grid{display:grid;grid-template-columns:1fr 300px;gap:3rem;align-items:start}.profile-content h2{font-size:2rem;font-weight:700;color:var(--secondary);margin-bottom:0.5rem}.section-line{width:60px;height:4px;background:var(--primary);border-radius:2px;margin-bottom:1.5rem}.profile-lead{font-size:1.125rem;color:var(--text-primary);margin-bottom:1rem}.profile-lead strong{color:var(--secondary)}.profile-text{color:var(--text-secondary);margin-bottom:1.5rem}.profile-meta{display:flex;flex-wrap:wrap;gap:1.5rem;font-size:0.875rem}.profile-meta-item{display:flex;align-items:center;gap:0.5rem}.profile-meta-item strong{color:var(--text-primary)}.profile-image img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--radius-lg);box-shadow:var(--shadow-xl)}
+        .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:3rem}.stat-card{background:var(--bg-card);border-radius:var(--radius-lg);padding:1.5rem;text-align:center;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,0.04);transition:var(--transition)}.stat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.stat-value{font-size:2.5rem;font-weight:700;color:var(--primary);display:block}.stat-label{font-size:0.875rem;color:var(--text-secondary);margin-top:0.5rem;display:block}
+        .match{padding:5rem 0;background:var(--bg-secondary)}.section-header{max-width:600px;margin-bottom:3rem}.section-header h2{font-size:2rem;font-weight:700;color:var(--secondary);margin-bottom:0.5rem}.section-header p{color:var(--text-secondary);font-size:1.125rem}.match-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}.match-card{background:var(--bg-card);border-radius:var(--radius-lg);padding:1.5rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,0.04);transition:var(--transition)}.match-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.match-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1rem}.match-icon{width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-size:1.25rem;flex-shrink:0}.match-title{font-size:1.125rem;font-weight:600;color:var(--secondary);flex-grow:1}.match-badge{background:var(--primary-light);color:var(--primary);padding:0.25rem 0.75rem;border-radius:var(--radius-full);font-size:0.75rem;font-weight:600;white-space:nowrap}.match-evidence{margin-top:1rem}.match-evidence li{display:flex;align-items:flex-start;gap:0.75rem;font-size:0.875rem;color:var(--text-secondary);padding:0.5rem 0}.match-evidence li::before{content:'✓';color:var(--primary);font-weight:600;flex-shrink:0}
+        .timeline-section{padding:5rem 0;background:var(--bg-primary)}.timeline{position:relative;max-width:900px;margin:0 auto}.timeline::before{content:'';position:absolute;left:20px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--primary),var(--accent))}.timeline-entry{position:relative;padding-left:60px;padding-bottom:1.5rem}.timeline-entry:last-child{padding-bottom:0}.timeline-marker{position:absolute;left:12px;top:4px;width:18px;height:18px;border-radius:50%;background:var(--primary);border:3px solid var(--bg-primary);box-shadow:0 0 0 2px var(--primary)}.timeline-entry[data-type="education"] .timeline-marker{background:var(--secondary);box-shadow:0 0 0 2px var(--secondary)}.timeline-entry[data-type="certification"] .timeline-marker{background:var(--accent);box-shadow:0 0 0 2px var(--accent)}.timeline-entry.current .timeline-marker{animation:pulse 2s infinite}@keyframes pulse{0%,100%{box-shadow:0 0 0 2px var(--primary)}50%{box-shadow:0 0 0 6px rgba(166,77,77,0.2)}}.timeline-content{background:var(--bg-card);border-radius:var(--radius);padding:1rem 1.5rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,0.04)}.timeline-entry.current .timeline-content{border-left:3px solid var(--primary)}.timeline-period{font-size:0.875rem;font-weight:600;color:var(--primary);display:block;margin-bottom:0.25rem}.timeline-title{font-size:1rem;font-weight:600;color:var(--secondary);margin-bottom:0.25rem}.timeline-org{font-size:0.875rem;color:var(--text-secondary)}.timeline-highlights{font-size:0.875rem;color:var(--text-secondary);margin-top:0.5rem}.timeline-highlights li{padding:0.25rem 0;padding-left:1rem;position:relative}.timeline-highlights li::before{content:'•';position:absolute;left:0;color:var(--primary)}
+        .timeline-group-header{position:relative;padding-left:60px;padding-bottom:1.5rem;margin-top:2rem}.timeline-group-header:first-child{margin-top:0}.timeline-group-header h3{font-size:1.25rem;font-weight:700;color:var(--secondary);display:flex;align-items:center;gap:0.75rem}.timeline-group-header .group-icon{width:36px;height:36px;background:var(--bg-secondary);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1rem}.timeline-group-header.cert h3{color:var(--accent)}.timeline-group-header.cert .group-icon{background:rgba(232,184,109,0.15)}.timeline-group-header.edu h3{color:var(--secondary)}.timeline-group-header.edu .group-icon{background:rgba(44,62,80,0.1)}
+        .contact{padding:5rem 0;background:var(--bg-secondary)}.contact-grid{display:grid;grid-template-columns:1fr 400px;gap:3rem;align-items:start}.contact-info h2{font-size:2rem;font-weight:700;color:var(--secondary);margin-bottom:0.5rem}.contact-list{margin-top:2rem}.contact-item{display:flex;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid rgba(0,0,0,0.06)}.contact-item:last-child{border-bottom:none}.contact-icon{width:44px;height:44px;background:var(--primary-light);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;color:var(--primary);flex-shrink:0}.contact-label{font-size:0.875rem;color:var(--text-secondary)}.contact-value{font-weight:500;color:var(--text-primary)}.contact-cta{background:var(--bg-card);border-radius:var(--radius-lg);padding:2rem;box-shadow:var(--shadow-lg);text-align:center}.contact-cta h3{font-size:1.25rem;font-weight:600;color:var(--secondary);margin-bottom:1rem}.contact-cta p{color:var(--text-secondary);margin-bottom:1.5rem}.contact-cta .btn{width:100%}
+        .footer{padding:1.5rem 0;background:var(--bg-dark);text-align:center}.footer p{font-size:0.875rem;color:rgba(255,255,255,0.5)}
+        @media(max-width:1024px){.match-grid{grid-template-columns:repeat(2,1fr)}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+        @media(max-width:768px){.hero-name{font-size:2.5rem}.nav-links{display:none;position:absolute;top:var(--nav-height);left:0;right:0;background:#fff;flex-direction:column;padding:1rem;box-shadow:var(--shadow-lg)}.nav-links.active{display:flex}.nav-toggle{display:flex}.nav-contact{display:none}.hero-bg-image{width:100%;opacity:0.25;mask-image:linear-gradient(to top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%)}.hero-content{text-align:center;max-width:100%}.hero-buttons{justify-content:center}.profile-grid{grid-template-columns:1fr}.profile-image{order:-1;max-width:250px;margin:0 auto 2rem}.match-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.timeline::before{left:10px}.timeline-entry{padding-left:40px}.timeline-marker{left:2px;width:16px;height:16px}.timeline-group-header{padding-left:40px}}
+    </style>
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">Carsten Wittmann</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#profile">Profil</a></li>
+                <li><a href="#match">Anforderungs-Match</a></li>
+                <li><a href="#timeline">Werdegang</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="nav-cta"><span class="nav-contact">+49 151 2262 8639</span></div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menü"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-bg-image"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">🏗️ Senior Teamleitung PMO & BPM – 100% Remote</span>
+                <h1 class="hero-name">Carsten Wittmann</h1>
+                <p class="hero-title">Senior PMO & BPM Experte</p>
+                <p class="hero-tagline">PMO-Aufbau seit 2004 · Projektportfolio-Management seit 2008<br>Lean Six Sigma Master Black Belt · Transformation & Change in regulierten Umgebungen</p>
+                <div class="hero-buttons">
+                    <a href="#match" class="btn btn-primary">Warum ich passe</a>
+                    <a href="#contact" class="btn btn-outline">Kontakt aufnehmen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile" class="profile">
+        <div class="container">
+            <div class="profile-grid">
+                <div class="profile-content">
+                    <h2>Profil</h2>
+                    <div class="section-line"></div>
+                    <p class="profile-lead"><strong>Erfahrener PMO- und Transformationsexperte</strong> mit 32+ Jahren Erfahrung in Banking und Financial Services. Ich habe PMO-Strukturen aufgebaut, Projektportfolios gesteuert und Business Process Management in regulierten Organisationen eingeführt – von der Konzeption bis zur operativen Umsetzung.</p>
+                    <p class="profile-text">Meine Stärke liegt in der Verbindung von methodischer Tiefe (Six Sigma Master Black Belt, BPMN, ITIL, Scrum) mit dem Verständnis für organisatorischen Wandel. Ich denke Change, Governance und KI-getriebene Zukunftsfähigkeit zusammen – pragmatisch und umsetzungsorientiert.</p>
+                    <div class="profile-meta">
+                        <div class="profile-meta-item"><strong>Verfügbarkeit:</strong> <span>Sofort</span></div>
+                        <div class="profile-meta-item"><strong>Standort:</strong> <span>Frankfurt am Main, 100% Remote</span></div>
+                        <div class="profile-meta-item"><strong>Sprachen:</strong> <span>Deutsch (Muttersprache), Englisch (fließend)</span></div>
+                    </div>
+                </div>
+                <div class="profile-image"><img src="https://waxxdu.de/wp-content/uploads/2026/01/carsten-wittmann-profile.png" alt="Carsten Wittmann"></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card"><span class="stat-value" data-count="32">0</span><span class="stat-label">Jahre Berufserfahrung</span></div>
+                <div class="stat-card"><span class="stat-value" data-count="20">0</span><span class="stat-label">Jahre PMO & Prozessmanagement</span></div>
+                <div class="stat-card"><span class="stat-value" data-count="32">0</span><span class="stat-label">Six Sigma Projekte gecoacht</span></div>
+                <div class="stat-card"><span class="stat-value" data-count="200">0</span><span class="stat-label">Führungskräfte trainiert</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="match" class="match">
+        <div class="container">
+            <div class="section-header">
+                <h2>Anforderungs-Match</h2>
+                <div class="section-line"></div>
+                <p>Alle Kernanforderungen der Stelle sind durch nachweisliche Projekterfahrung abgedeckt.</p>
+            </div>
+            <div class="match-grid">
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🏗️</span>
+                        <h3 class="match-title">Aufbau eines Project Management Office (PMO)</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Projektvereinbarungen und PM-Standards bereits 2004 bei etb eingeführt und umgesetzt</li>
+                        <li>Aufbau des Projektportfolio-Managements bei Einführung von Process Excellence 2008 an der dwpbank</li>
+                        <li>Stellvertretende Leitung des Projektbereichs an der dwpbank inkl. Governance und Steuerung</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">📊</span>
+                        <h3 class="match-title">Projektportfolio-Management & Governance</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Multiprojektmanagement als Master Black Belt bei Xchanging ab 2006 eingeführt und verantwortet</li>
+                        <li>Aufbau Projektportfolio-Management bei der dwpbank im Rahmen der Process Excellence Initiative (2008)</li>
+                        <li>Steuerung von 32 Lean Six Sigma Projekten mit 3,6 Mio. EUR internem Wertbeitrag an der dwpbank</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">⚙️</span>
+                        <h3 class="match-title">Business Process Management (BPM)</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Expert für Business Process Management an der dwpbank (2011–2012): operative und strategische Projekte bankweit</li>
+                        <li>BPMN-Tool-Auswahl und Prozessdokumentationskonzept für eine Ratingagentur als Freelancer umgesetzt</li>
+                        <li>Lean Six Sigma und BPM-Implementierung als Senior Consultant bei agens Consulting (2007–2008) für Vorstandsebene</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🔍</span>
+                        <h3 class="match-title">Prozessanalyse & Prozessoptimierung</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Lean Six Sigma Master Black Belt (zertifiziert): DMAIC-Methodik, Value Stream Mapping, Design for Six Sigma</li>
+                        <li>Head of Process Excellence dwpbank: Lean Six Sigma operativ eingeführt, Prozessexperten-Team aufgebaut und geleitet</li>
+                        <li>200+ Prozessexperten in Verbesserungsprojekten trainiert und gecoacht</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🔄</span>
+                        <h3 class="match-title">Klassische & agile Projektmethoden</h3>
+                        <span class="match-badge">95% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Professional Scrum Master (PSM I, scrum.org 2020): agile Methodik in Kundenprojekten eingesetzt</li>
+                        <li>ITIL Foundation zertifiziert (2016): IT Service Management und Change-Prozesse in Bankprojekten</li>
+                        <li>Klassisches PM mit Stage-Gate-Modellen, Projektvereinbarungen und strukturierter Governance seit 2004</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🏦</span>
+                        <h3 class="match-title">Transformations- & Digitalisierungsprojekte</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Global Virtual Desktop Rollout bei Tier-1-Bank: Service Transition für 80.000+ Geräte geleitet (2020–2022)</li>
+                        <li>GDPR Readiness-Transformation bei deutscher Transaktionsbank: 135 Anwendungen analysiert und transformiert</li>
+                        <li>Tiefes Verständnis für regulatorische Anforderungen und Change in regulierten Finanzinstituten</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">💬</span>
+                        <h3 class="match-title">Moderation & Kommunikation mit Führungskräften</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>200+ Führungskräfte in Champion/Leadership-Rolle für Six Sigma trainiert und begleitet</li>
+                        <li>Beratung von Vorständen bei Lean Six Sigma und BPM-Einführung als Senior Consultant</li>
+                        <li>NLP Master & wingwave Coach: kommunikative Werkzeuge für Workshops und Stakeholder-Management</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">📐</span>
+                        <h3 class="match-title">Analytische & konzeptionelle Stärke</h3>
+                        <span class="match-badge">100% Match</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>Entwicklung statistischer Analyse-Software (Excel Add-in) für Prozesskontrolle und -monitoring</li>
+                        <li>Prognosemodell für Transaktionsvolumina auf Basis wirtschaftlicher Indikatoren für Transaktionsbank</li>
+                        <li>Dozent für Qualitäts- und Change Management an der Hochschule Fresenius (2015–2019)</li>
+                    </ul>
+                </div>
+
+                <div class="match-card">
+                    <div class="match-header">
+                        <span class="match-icon">🤖</span>
+                        <h3 class="match-title">Zukunftsfähigkeit & KI-Integration</h3>
+                        <span class="match-badge">Zusatz-Kompetenz</span>
+                    </div>
+                    <ul class="match-evidence">
+                        <li>TÜV-Rheinland Certified AI Consultant (2024): KI-Compliance, AI Use Cases und Workflows entwickelt</li>
+                        <li>Entwicklung von KI-gestützten Prozessen und Automatisierungen als aktuelles Schwerpunktthema</li>
+                        <li>Denke PMO und BPM konsequent mit KI-Potenzialen – für eine zukunftsfähige Prozess- und Projektkultur</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beruflicher Werdegang</h2>
+                <div class="section-line"></div>
+                <p>Meine relevante Karriere – von heute bis zu den PMO-Anfängen.</p>
+            </div>
+            <div class="timeline">
+
+                <div class="timeline-group-header">
+                    <h3><span class="group-icon">💼</span> Berufserfahrung</h3>
+                </div>
+
+                <div class="timeline-entry current" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2024 – heute</span>
+                        <h3 class="timeline-title">Experte für KI-Compliance und Datenschutz</h3>
+                        <p class="timeline-org">Koerting Institut, Bad Homburg</p>
+                        <ul class="timeline-highlights">
+                            <li>Schulungen zu Data Governance, Compliance und Datenschutz</li>
+                            <li>KI-Compliance und Datenschutz für TÜV-Zertifizierungskurse</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry current" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2012 – heute</span>
+                        <h3 class="timeline-title">Freelancer: Consultant, Trainer, Coach</h3>
+                        <p class="timeline-org">waXXdu! Carsten Wittmann, Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>PMO-nahe Projekte: BPMN-Tool-Auswahl und Prozessdokumentation für Ratingagentur</li>
+                            <li>Transformationsprojekte: Global Virtual Desktop Rollout (80.000+ Geräte), GDPR Readiness (135 Anwendungen)</li>
+                            <li>Continuous Improvement Einführung im Finance-Bereich einer Großbank (CI-Rollout, Training, Coaching)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2011 – 2012</span>
+                        <h3 class="timeline-title">Experte Business Process Management</h3>
+                        <p class="timeline-org">Deutsche WertpapierService Bank AG (dwpbank), Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Leitung operativer und strategischer Projekte, u.a. bankweite Steuerrechtsänderungen</li>
+                            <li>Leitung Projektstream "Standardisierung" im Optimierungsprojekt mit institutionellem Großkunden</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2009 – 2011</span>
+                        <h3 class="timeline-title">Head of Process Excellence / Stv. Leitung Projektbereich</h3>
+                        <p class="timeline-org">Deutsche WertpapierService Bank AG (dwpbank), Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Aufbau Projektportfolio-Management und Lean Six Sigma operational eingeführt</li>
+                            <li>High-Performance-Team aus internen Prozessexperten (Lean Six Sigma Black Belts) aufgebaut und geleitet</li>
+                            <li>3,6 Mio. EUR interner Wertbeitrag aus 32 abgeschlossenen Projekten</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2006 – 2007</span>
+                        <h3 class="timeline-title">Master Black Belt, Process Xcellence</h3>
+                        <p class="timeline-org">Xchanging Transaction Bank GmbH, Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Multiprojektmanagement eingeführt, strategische Projekte eigenständig geleitet</li>
+                            <li>Business Case für zusätzliche Kundenservices: 3 Mio. EUR p.a. Umsatz bei 20% Kundeneinsparung</li>
+                            <li>Green Belt- und Black Belt-Ausbildung für Deutschland, UK und Indien verantwortet</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2004 – 2005</span>
+                        <h3 class="timeline-title">Black Belt, Process Xcellence</h3>
+                        <p class="timeline-org">etb european transaction bank GmbH (später Xchanging), Frankfurt</p>
+                        <ul class="timeline-highlights">
+                            <li>Projektvereinbarungen entwickelt und umgesetzt – Grundlage für strukturiertes PM im Unternehmen</li>
+                            <li>Web-basierte Projektdatenbank eingeführt: Aufbau, Rollen, Rollout und Nutzertraining</li>
+                            <li>Lean Six Sigma Info-Sessions für 700+ Mitarbeiter an mehreren Standorten durchgeführt</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="experience">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">1999 – 2003</span>
+                        <h3 class="timeline-title">Key Account Management & Customer Care</h3>
+                        <p class="timeline-org">etb european transaction bank GmbH, Frankfurt / Düsseldorf</p>
+                        <ul class="timeline-highlights">
+                            <li>Stv. Teamleitung Customer Care Center Düsseldorf: Prozesse, Systeme, Reporting aufgebaut</li>
+                            <li>Stv. Key Account Manager Sal. Oppenheim: Projektvereinbarungen und Schadensregelung verhandelt</li>
+                            <li>etb Award 2002 für herausragende Verbesserung der Kundenbeziehung</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-group-header cert">
+                    <h3><span class="group-icon">🏆</span> Zertifizierungen</h3>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2024</span>
+                        <h3 class="timeline-title">TÜV-Rheinland Certified AI Consultant</h3>
+                        <p class="timeline-org">TÜV Rheinland</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2020</span>
+                        <h3 class="timeline-title">Professional Scrum Master (PSM I)</h3>
+                        <p class="timeline-org">scrum.org</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2019</span>
+                        <h3 class="timeline-title">Zertifizierter Datenschutzbeauftragter</h3>
+                        <p class="timeline-org">LUTOP Datenschutz Akademie GmbH</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2016</span>
+                        <h3 class="timeline-title">ITIL Foundation</h3>
+                        <p class="timeline-org">AXELOS / APMG International</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="certification">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2006</span>
+                        <h3 class="timeline-title">Lean Six Sigma Master Black Belt (zertifiziert)</h3>
+                        <p class="timeline-org">Xchanging / Institut für Six Sigma</p>
+                    </div>
+                </div>
+
+                <div class="timeline-group-header edu">
+                    <h3><span class="group-icon">🎓</span> Ausbildung</h3>
+                </div>
+
+                <div class="timeline-entry" data-type="education">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2015 – 2019</span>
+                        <h3 class="timeline-title">Lehrbeauftragter für Qualitäts- und Change Management</h3>
+                        <p class="timeline-org">Hochschule Fresenius, Idstein/Wiesbaden</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="education">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">1991 – 1993</span>
+                        <h3 class="timeline-title">Studium Betriebswirtschaftslehre</h3>
+                        <p class="timeline-org">Universität Marburg</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry" data-type="education">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">1989 – 1991</span>
+                        <h3 class="timeline-title">Ausbildung zum Bankkaufmann</h3>
+                        <p class="timeline-org">Westdeutsche Landesbank (WestLB), Düsseldorf</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Kontakt</h2>
+                    <div class="section-line"></div>
+                    <p class="profile-text">Ich freue mich auf Ihre Nachricht zur Stelle Senior Teamleitung PMO & BPM.</p>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
+                            <div><div class="contact-label">E-Mail</div><div class="contact-value">cw@waxxdu.de</div></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+                            <div><div class="contact-label">Telefon</div><div class="contact-value">+49 151 2262 8639</div></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+                            <div><div class="contact-label">Standort</div><div class="contact-value">Frankfurt am Main, 100% Remote</div></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg></div>
+                            <div><div class="contact-label">Verfügbarkeit</div><div class="contact-value">Sofort (asap)</div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Interesse geweckt?</h3>
+                    <p>Lassen Sie uns über die Position Senior Teamleitung PMO & BPM sprechen.</p>
+                    <a href="mailto:cw@waxxdu.de?subject=Senior%20Teamleitung%20PMO%20%26%20BPM%20%E2%80%93%20Anfrage" class="btn btn-primary">E-Mail schreiben</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><p>© 2026 Carsten Wittmann · CV-Präsentation für Senior Teamleitung PMO & BPM</p></div></footer>
+
+    <script>
+        const nav=document.getElementById('nav');window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>50)});
+        const toggle=document.getElementById('navToggle'),links=document.getElementById('navLinks');toggle.addEventListener('click',()=>{links.classList.toggle('active')});links.querySelectorAll('a').forEach(l=>{l.addEventListener('click',()=>{links.classList.remove('active')})});
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t){const o=80,p=t.getBoundingClientRect().top+window.pageYOffset-o;window.scrollTo({top:p,behavior:'smooth'})}})});
+        const animateValue=(el,end)=>{const d=1500,s=performance.now(),tick=n=>{const e=n-s,p=Math.min(e/d,1),v=1-Math.pow(1-p,3);el.textContent=Math.floor(v*end);p<1?requestAnimationFrame(tick):el.textContent=end};requestAnimationFrame(tick)};
+        const obs=new IntersectionObserver(e=>{e.forEach(en=>{if(en.isIntersecting){const el=en.target,c=parseInt(el.dataset.count)||0;animateValue(el,c);obs.unobserve(el)}})},{threshold:0.5});
+        document.querySelectorAll('[data-count]').forEach(el=>obs.observe(el));
+    </script>
+</body>
+</html>
